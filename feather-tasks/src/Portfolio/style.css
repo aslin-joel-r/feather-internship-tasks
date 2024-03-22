@@ -1,12 +1,13 @@
 body{
   margin: 0;
   font-family:sans-serif ;
+  overflow-x: hidden;
 }
 .nav-container {
   display: flex;
   align-items: center; 
   height: 50px;
-  background-color: rgb(10, 177, 85);
+ font-size: 15px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -21,8 +22,9 @@ nav a{
   text-decoration: none;
 }
 nav ul {
+  margin-left: 70px;
   display: flex;
-  gap: 40px;
+  gap: 30px;
   
 }
 
@@ -71,6 +73,8 @@ nav li {
   padding: 6px;
   color: white;
   width: 70px;
+  border: none;
+  border-radius: 5px;
 }
 .img-container{
  
@@ -92,5 +96,5 @@ nav li {
   left: 50%;
   width: 100% !important;
   background-color:rgb(10, 138, 62); 
-  transform: skewX(40deg);
+  transform: skewX(20deg);
 }
