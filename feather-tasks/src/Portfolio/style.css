@@ -1,11 +1,12 @@
 body{
   margin: 0;
+  font-family:sans-serif ;
 }
 .nav-container {
   display: flex;
   align-items: center; 
   height: 50px;
-  background-color: green;
+  background-color: rgb(10, 177, 85);
   position: fixed;
   top: 0;
   width: 100%;
@@ -44,7 +45,8 @@ nav li {
 .icons-container{
   position:absolute;
   top: 40%;
-  border: 2px solid black;
+  border: 1px solid gray;
+  border-radius: 15px;
   left: 30px;
   padding: 8px;
 }
@@ -63,6 +65,32 @@ nav li {
   top: 20%;
   right: 15%;
 }
-.details-container::after{
-  background-color: greenyellow;
+
+#hire-me{
+  background-color: rgb(5, 196, 78);
+  padding: 6px;
+  color: white;
+  width: 70px;
+}
+.img-container{
+ 
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.img-container::before,
+.img-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  z-index: -1;
+}
+
+.img-container::after {
+  left: 50%;
+  width: 100% !important;
+  background-color:rgb(10, 138, 62); 
+  transform: skewX(40deg);
 }

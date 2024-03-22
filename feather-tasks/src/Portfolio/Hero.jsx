@@ -3,14 +3,14 @@ import image from '../assets/hero.png'
 
 export function Hero(){
     return(
-        <>
+        < >
             <div className='icons-container'>
                 <ul className='social'>
-                    <li><a href="">i</a></li>
-                    <li><a href="">t</a></li>
-                    <li><a href="">f</a></li>
-                    <li><a href="">t</a></li>
-                    <li><a href="">f</a></li>
+                    <li><i class="fa fa-facebook"></i></li>
+                    <li><i class="fa fa-twitter"></i></li>
+                    <li><i class="fa fa-instagram"></i></li>
+                    <li><i class="fa fa-linkedin"></i></li>
+                    
                 </ul>
             </div>
 
