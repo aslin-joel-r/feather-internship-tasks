@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+}
+.nav-container {
+  display: flex;
+  align-items: center; 
+  height: 50px;
+  background-color: green;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  float: right;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+}
+nav ul {
+  display: flex;
+  gap: 40px;
+  
+}
+
+nav li {
+  list-style-type: none;
+}
+
+.social{
+ 
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  
+}
+.social a{
+  color: red;
+}
+.icons-container{
+  position:absolute;
+  top: 40%;
+  border: 2px solid black;
+  left: 30px;
+  padding: 8px;
+}
+
+.details-container{
+  max-width: 300px;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.hero-img{
+  position: absolute;
+  height: 400px;
+  width: 300px;
+  top: 20%;
+  right: 15%;
+}
+.details-container::after{
+  background-color: greenyellow;
+}
